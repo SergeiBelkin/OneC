@@ -4,10 +4,10 @@
 //     Console.WriteLine($"умножение на {i}" );
 //     for (int u = 10; u >= 2; u-- )
 //     {
-        
-    
+
+
 //         Console.WriteLine($"{i}x{u}={u * i}");
-     
+
 //     }
 // } 
 
@@ -19,7 +19,7 @@
 // {
 //     // int i = c;
 //     Console.Write(txt[c]);
-    
+
 // }
 
 // Задача 25:
@@ -44,4 +44,34 @@
 
 
 // Console.WriteLine(q);
+
+
+// Задача 27: Напишите программу, которая принимает на вход число
+//  и выдаёт сумму цифр в числе.
+// 452 -> 11
+// 82 -> 10
+// 9012 -> 12
+
+// Console.WriteLine("Введите число:");
+
+// string text = Console.ReadLine();
+// // int[] cifrA = Convert.ToInt32(text);
+
+
+// char[]one = text.ToCharArray();
+// int sum = 0;
+// for (int i = 0, sum2 = 0; i < one.Length; i++)
+// {
+//     // Console.WriteLine(one[i]);
+    
+//     sum2 = Convert.ToInt32 (one[i] - 48);
+//     sum = sum + sum2;
+    
+    
+// }
+// Console.WriteLine(sum);
+
+
+
+
 
