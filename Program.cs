@@ -63,15 +63,29 @@
 // for (int i = 0, sum2 = 0; i < one.Length; i++)
 // {
 //     // Console.WriteLine(one[i]);
-    
+
 //     sum2 = Convert.ToInt32 (one[i] - 48);
 //     sum = sum + sum2;
-    
-    
+
+
 // }
 // Console.WriteLine(sum);
 
 
+// Задача 29: Напишите программу, которая задаёт массив из
+//  8 элементов (от -10 до 10) и выводит их на экран.
 
+// 1, 2, 5, 7, 9 -> [1, 2, 5, 7, 9]
+// 6, 1, 3 -> [6, 1, 3]
+
+
+// Console.Write("Массив из 8 чисел:");
+// int[] array = new int[8];
+// for (int i = 0; i < 8; i++)
+//     {
+//     int numberOfmass = new Random().Next(-10, 10);
+//     array[i] = numberOfmass;
+//     Console.Write($"{array[i]},");
+//     }
 
 
